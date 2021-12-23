@@ -1,3 +1,3 @@
 # PHYS4321FinalProject
 
-Placeholder description
+Monte Carlo model that determines the average distance of an arrow travelled in a randomly generated forest of a pre-determined density. It does this by 1) generating a forest with the predetermined density, 2) Shoots several arrows in random directions (selected using polar coordinates) and then creates a line according to the path of each arrow 3) Find the distance between each shot arrow and each tree generated in step 1, 4) Determines if the arrow hit or misses a tree 5) If a tree is hit, determines the distancd traveled by that arrow, and then 7) eliminates duplicate collisions and escaped arrows. It then repeats this process several times and takes the mean value of these distances. 
